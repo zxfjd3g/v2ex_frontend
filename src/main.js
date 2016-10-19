@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
-import VuePaginate from 'vue-paginate'
 
 import { formatDate } from './filters'
 import Index from './components/Index.vue'
@@ -14,7 +13,6 @@ import Login from './components/Login.vue'
 
 Vue.use(VueResource)
 Vue.use(VueRouter)
-Vue.use(VuePaginate)
 
 Vue.filter('formatDate', formatDate)
 
